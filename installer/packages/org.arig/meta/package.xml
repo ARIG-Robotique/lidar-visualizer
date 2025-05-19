@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package>
-    <DisplayName>RPLidar Visualizer</DisplayName>
-    <Description>Install RPLidar Visualizer.</Description>
+    <DisplayName>Lidar Visualizer</DisplayName>
+    <Description>Install Lidar Visualizer.</Description>
     <Version>0.0.1-1</Version>
     <ReleaseDate>2016-11-30</ReleaseDate>
     <!--<Licenses>
