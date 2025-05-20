@@ -25,9 +25,9 @@ FORMS += \
 
 DISTFILES +=
 
-unix:!macx: LIBS += -L$$PWD/libs/rplidar/ -lrplidar_sdk
+unix:!macx: LIBS += -L$$PWD/libs/rplidar/ -l_rplidar_sdk
 
 INCLUDEPATH += $$PWD/libs/rplidar/include
 DEPENDPATH += $$PWD/libs/rplidar/include
 
-unix:!macx: PRE_TARGETDEPS += $$PWD/libs/rplidar/librplidar_sdk.a
+unix:!macx: PRE_TARGETDEPS += $$PWD/libs/rplidar/lib_rplidar_sdk.a
